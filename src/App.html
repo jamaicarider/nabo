@@ -1,0 +1,246 @@
+
+    <div class="hero-shell">
+      <header class="site-header site-header--hero">
+        <div class="container header-inner">
+          <a class="logo-link" href="#" aria-label="nabō — início">
+            <img
+              class="logo-img"
+             src="/assets/logo-nabo.png"
+              alt="nabō"
+              width="136"
+              height="42"
+              decoding="async"
+            />
+          </a>
+          <a
+            class="header-link header-link--hero"
+            href="https://www.instagram.com/nabo________/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            instagram
+          </a>
+        </div>
+      </header>
+
+      <section class="hero hero--banner" aria-label="Introdução">
+        <div class="hero__scrim" aria-hidden="true"></div>
+        <div class="container hero-inner">
+          <p class="hero-eyebrow reveal">
+            gestão de mídias · prod. foto e reels · branding · cobertura de
+            evento
+          </p>
+          <h1 class="hero-title reveal reveal-delay-1">
+            presença que posiciona.<br />conteúdo que converte.
+          </h1>
+          <p class="hero-lead reveal reveal-delay-2">
+            somos a nabō — ajudamos marcas e empreendedores a crescer e se
+            destacar no instagram com estratégia, estética e produção criativa.
+          </p>
+          <a
+            class="btn btn-hero hero-cta reveal reveal-delay-3"
+            href="#formulario"
+          >
+            quero falar sobre meu projeto
+          </a>
+        </div>
+      </section>
+    </div>
+
+    <main id="conteudo">
+
+      <section class="services" aria-labelledby="services-heading">
+        <div class="container">
+          <header class="section-header reveal">
+            <h2 id="services-heading" class="section-title">serviços</h2>
+            <p class="section-lead">
+              do planejamento à entrega — tudo pensado para a sua marca ganhar
+              relevância e consistência nas redes.
+            </p>
+          </header>
+
+          <ul class="card-grid">
+            <li class="card reveal reveal-delay-1">
+              <span class="card-index">01</span>
+              <h3 class="card-title">gestão de Mídias</h3>
+              <p class="card-text">
+                planejamento, calendário editorial, publicação e acompanhamento
+                — instagram com método e identidade.
+              </p>
+            </li>
+
+            <li class="card reveal reveal-delay-2">
+              <span class="card-index">02</span>
+              <h3 class="card-title">produção de foto &amp; reels</h3>
+              <p class="card-text">
+                conteúdo visual alinhado à sua marca: fotos, reels e materiais
+                prontos para performar no feed.
+              </p>
+            </li>
+
+            <li class="card reveal reveal-delay-3">
+              <span class="card-index">03</span>
+              <h3 class="card-title">branding</h3>
+              <p class="card-text">
+                posicionamento, tom visual e narrativa — para sua marca ser
+                reconhecida e lembrada.
+              </p>
+            </li>
+
+            <li class="card reveal reveal-delay-4">
+              <span class="card-index">04</span>
+              <h3 class="card-title">cobertura de Eventos</h3>
+              <p class="card-text">
+                registro e conteúdo ao vivo do seu evento, com entrega ágil
+                para stories, reels e feed.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="qualify" id="formulario" aria-labelledby="form-heading">
+        <div class="container">
+          <header class="section-header reveal">
+            <h2 id="form-heading" class="section-title">vamos conversar?</h2>
+            <p class="section-lead">
+              preencha o formulário abaixo. ao enviar, abrimos o whatsApp com
+              suas respostas — é só confirmar a mensagem.
+            </p>
+          </header>
+
+          <form class="lead-form reveal" id="lead-form" novalidate>
+            <div class="form-grid">
+              <div class="field">
+                <label for="nome">nome completo</label>
+                <input
+                  type="text"
+                  id="nome"
+                  name="nome"
+                  autocomplete="name"
+                  required
+                  placeholder="seu nome"
+                />
+              </div>
+
+              <div class="field">
+                <label for="marca">nome da marca</label>
+                <input
+                  type="text"
+                  id="marca"
+                  name="marca"
+                  required
+                  placeholder="como sua marca se chama"
+                />
+              </div>
+
+              <div class="field">
+                <label for="instagram">instagram da marca</label>
+                <input
+                  type="text"
+                  id="instagram"
+                  name="instagram"
+                  required
+                  placeholder="@sua marca"
+                />
+              </div>
+
+              <div class="field">
+                <label for="email">e-mail</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  autocomplete="email"
+                  required
+                  placeholder="seu@email.com"
+                />
+              </div>
+            </div>
+
+            <fieldset class="field fieldset">
+              <legend>serviço(s) de interesse</legend>
+              <div class="checkbox-grid">
+                <label class="checkbox">
+                  <input
+                    type="checkbox"
+                    name="servico"
+                    value="gestão de mídias"
+                  />
+                  <span>gestão de mídias</span>
+                </label>
+                <label class="checkbox">
+                  <input
+                    type="checkbox"
+                    name="servico"
+                    value="produção de foto & reels"
+                  />
+                  <span>produção de foto &amp; reels</span>
+                </label>
+                <label class="checkbox">
+                  <input type="checkbox" name="servico" value="branding" />
+                  <span>branding</span>
+                </label>
+                <label class="checkbox">
+                  <input
+                    type="checkbox"
+                    name="servico"
+                    value="cobertura de eventos"
+                  />
+                  <span>cobertura de eventos</span>
+                </label>
+              </div>
+              <p class="field-hint" id="servico-hint" hidden>
+                selecione ao menos um serviço.
+              </p>
+            </fieldset>
+
+            <div class="field">
+              <label for="objetivo">o que você busca?</label>
+              <textarea
+                id="objetivo"
+                name="objetivo"
+                rows="4"
+                required
+                placeholder="conte um pouco sobre seu momento, objetivos e o que espera da nabō."
+              ></textarea>
+            </div>
+
+            <button
+              type="submit"
+              class="btn btn-primary"
+              id="submit-btn"
+              data-default-label="enviar pelo WhatsApp"
+            >
+              enviar pelo whatsApp
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p class="footer-brand">nabō | mídias sociais</p>
+        <a
+          class="footer-link"
+          href="https://www.instagram.com/nabo________/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          @nabo________
+        </a>
+        <p class="footer-copy">
+          © <span id="year"></span> nabō. todos os direitos reservados.
+        </p>
+      </div>
+    </footer>
+
+    <div
+      id="toast"
+      class="toast"
+      role="status"
+      aria-live="polite"
+      aria-atomic="true"
+      hidden
+    ></div>
