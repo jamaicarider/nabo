@@ -441,6 +441,13 @@ background-image: url("/assets/hero-banner.png");
 }
 
 
+.field + fieldset{
+
+ margin-top:1.5rem;
+
+}
+
+
 
 .field textarea{
 
@@ -505,9 +512,9 @@ background-image: url("/assets/hero-banner.png");
 
  flex-shrink:0;
 
- width:1.1rem;
+ width:0.88rem;
 
- height:1.1rem;
+ height:0.88rem;
 
  accent-color:var(--color-accent);
 
