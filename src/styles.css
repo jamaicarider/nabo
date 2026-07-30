@@ -266,8 +266,8 @@ background-image: url("/assets/hero-banner.png");
   padding:1rem 0;
   border-top:1px solid var(--color-border);
   border-bottom:1px solid var(--color-border);
-  background:rgba(255,255,255,.6);
-  backdrop-filter:blur(8px);
+  background:var(--color-bg);
+  backdrop-filter:none;
 }
 
 .partners-track{
