@@ -256,6 +256,58 @@ background-image: url("/assets/hero-banner.png");
    SECTIONS
 ========================================================================== */
 
+.partners{
+  padding:0 0 var(--space-lg);
+  background:var(--color-bg);
+}
+
+.partners-marquee{
+  overflow:hidden;
+  padding:1rem 0;
+  border-top:1px solid var(--color-border);
+  border-bottom:1px solid var(--color-border);
+  background:rgba(255,255,255,.6);
+  backdrop-filter:blur(8px);
+}
+
+.partners-track{
+  display:flex;
+  width:max-content;
+  animation:partners-marquee 24s linear infinite;
+  will-change:transform;
+}
+
+.partners-group{
+  display:flex;
+  align-items:center;
+  gap:1.25rem;
+  padding:0 1rem;
+  flex-shrink:0;
+}
+
+.partners-group img{
+  height:4.992rem;
+  width:10.92rem;
+  object-fit:contain;
+  opacity:.92;
+  padding:2 2.40rem;
+  filter:grayscale(1);
+  transition:transform var(--transition-fast), filter var(--transition-fast);
+}
+
+.partners-group img:hover{
+  transform:translateY(-2px);
+  filter:grayscale(0);
+}
+
+@keyframes partners-marquee {
+  from {
+    transform:translateX(0);
+  }
+  to {
+    transform:translateX(-50%);
+  }
+}
 
 .section-header{
 
